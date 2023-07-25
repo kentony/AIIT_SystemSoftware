@@ -5,7 +5,7 @@
 
 ## Description
   - gcdiv.sh 
-    - A script that takes natural numbers as arguments and calculates the greatest common divisor by Euclidean division.
+    - A script that takes natural numbers as arguments and calculates the greatest common divisor by Euclidean algorithm.
   - gha_test.sh
     - CI test script for gcdiv.sh with GHA(GitHub Actions)
 
