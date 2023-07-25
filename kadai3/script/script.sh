@@ -1,7 +1,6 @@
 #!/bin/bash
-       _DATE_=$(date +%Y%m%d_%H%M%S)
-       _HOME_='/home/tone001'
-    _WORKLOG_="${_HOME_}/worklog"
+       _DATE_=$(date +%Y%m%d_%H%M)
+    _WORKLOG_="${HOME}/worklog"
 _WORKLOGFILE_="${_WORKLOG_}/${_DATE_}.log"
 
 # create worklog dir
