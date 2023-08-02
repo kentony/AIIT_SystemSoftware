@@ -1,0 +1,10 @@
+name: kadai4-actions
+on: push
+jobs:
+  kadai4-pattern-check:
+    name: kadai4-pattern-check
+    runs-on: ubuntu-latest
+    steps:
+      - run: 'Test for kadai4'
+      - run: ./gha_test.sh
+      
